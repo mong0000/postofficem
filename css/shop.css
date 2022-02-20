@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR&display=swap');
+
+
+* {box-sizing:border-box;}
+
+body {font-family: 'IBM Plex Sans KR', '맑은 고딕', Arial, Helvetica, sans-serif;
+background:#fff;}
+
+div:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+
+h2 {
+    text-align:center;
+    margin-top:20px;
+}
+
+.shop {
+    margin-top:20px;
+    padding:20px 10px;
+    border-bottom:1px solid #ccc;
+}
+.shop_visual {float:left;}
+.shop_visual img {width:180px;}
+
+.shop_text {
+    float:left;
+    margin-left:20px;
+    margin-top:25px;
+}
+.shop_text .title {
+    font-size:17px;
+}
+.shop_text .small {
+    font-size:14px;
+    color:#999;
+    margin:5px 0 15px;
+}
+.shop_text del {
+    font-size:17px;
+    color:#666;
+}
+.shop_text .sale {
+    margin-top:15px;
+    font-size:17px;
+}
+.shop_text .sale span {color:#FFB53B;}
+
+.shop_btn {
+    float:left;
+    text-align:center;
+    padding-top:20px;
+    padding-left:10px;
+}
+.shop_btn a {
+    display:inline-block;
+    text-align:center;
+    margin:0 10px;
+    border:2px solid #F58325;
+    border-radius:20px;
+    color:#F58325;
+}
+
+.shop_btn .buy {
+    border:2px solid #ED3024;
+    background:#ED3024;
+    color:#fff;
+    padding:10px 30px;
+}
+.shop_btn .buy:hover {
+    border:2px solid #FFB53B;
+    background:#FFB53B;
+}
+
+.shop_btn .bag {
+    padding:10px 30px;
+} 
+
+.shop_btn .more {
+    padding:10px 30px;
+}
+.shop_btn .bag:hover, .shop_btn .more:hover {
+    border:2px solid #FFB53B;
+    background:#FFB53B;
+    color:#fff;
+}
